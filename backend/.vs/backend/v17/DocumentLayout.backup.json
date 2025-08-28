@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\nicol\\OneDrive - UPB\\Sexto Semestre\\Plataformas de Programacion Empresarial\\Actividad1\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3A2EF27-F2E2-46CE-981A-1FB123526320}|backend.csproj|c:\\users\\nicol\\onedrive - upb\\sexto semestre\\plataformas de programacion empresarial\\actividad1\\backend\\models\\taskitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3A2EF27-F2E2-46CE-981A-1FB123526320}|backend.csproj|solutionrelative:models\\taskitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3A2EF27-F2E2-46CE-981A-1FB123526320}|backend.csproj|c:\\users\\nicol\\onedrive - upb\\sexto semestre\\plataformas de programacion empresarial\\actividad1\\backend\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A2EF27-F2E2-46CE-981A-1FB123526320}|backend.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskItems.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive - UPB\\Sexto Semestre\\Plataformas de Programacion Empresarial\\Actividad1\\backend\\Models\\TaskItems.cs",
-              "RelativeDocumentMoniker": "Models\\TaskItems.cs",
-              "ToolTip": "C:\\Users\\nicol\\OneDrive - UPB\\Sexto Semestre\\Plataformas de Programacion Empresarial\\Actividad1\\backend\\Models\\TaskItems.cs",
-              "RelativeToolTip": "Models\\TaskItems.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T18:39:50.608Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -36,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\OneDrive - UPB\\Sexto Semestre\\Plataformas de Programacion Empresarial\\Actividad1\\backend\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\nicol\\OneDrive - UPB\\Sexto Semestre\\Plataformas de Programacion Empresarial\\Actividad1\\backend\\Services\\TaskService.cs",
+              "RelativeToolTip": "Services\\TaskService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:42:32.032Z",
+              "EditorCaption": ""
             }
           ]
         }

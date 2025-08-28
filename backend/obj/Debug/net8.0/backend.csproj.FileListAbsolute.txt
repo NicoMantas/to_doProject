@@ -43,3 +43,6 @@ C:\Users\nicol\OneDrive - UPB\Sexto Semestre\Plataformas de Programacion Empresa
 C:\Users\nicol\OneDrive - UPB\Sexto Semestre\Plataformas de Programacion Empresarial\Actividad1\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\nicol\OneDrive - UPB\Sexto Semestre\Plataformas de Programacion Empresarial\Actividad1\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\nicol\OneDrive - UPB\Sexto Semestre\Plataformas de Programacion Empresarial\Actividad1\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\nicol\OneDrive - UPB\Sexto Semestre\Plataformas de Programacion Empresarial\Actividad1\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\nicol\OneDrive - UPB\Sexto Semestre\Plataformas de Programacion Empresarial\Actividad1\backend\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\nicol\OneDrive - UPB\Sexto Semestre\Plataformas de Programacion Empresarial\Actividad1\backend\bin\Debug\net8.0\Sprache.dll

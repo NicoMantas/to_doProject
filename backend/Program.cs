@@ -1,6 +1,7 @@
 
 using backend.Models;
 using backend.Services;
+using DotNetEnv;
 
 namespace backend
 {
@@ -10,13 +11,20 @@ namespace backend
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.Configure<DataBaseSettings>(
-                builder.Configuration.GetSection("TaskManagerDatabase"));
+            // Cargar variables de entorno AL INICIO
+            Env.Load();
+
+            builder.Services.Configure<DataBaseSettings>(options =>
+            {
+                options.ConnectionString = Environment.GetEnvironmentVariable("MONGODB_CONNECTION_STRING");
+                options.DatabaseName = Environment.GetEnvironmentVariable("MONGODB_DATABASE_NAME");
+                options.TasksCollectionName = Environment.GetEnvironmentVariable("MONGODB_COLLECTION_NAME");
+            });
 
             builder.Services.AddSingleton<TaskService>();
 
             builder.Services.AddControllers();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
